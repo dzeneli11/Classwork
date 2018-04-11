@@ -16,13 +16,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 		<script src="js/jquery.slicknav.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-		$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
-		});
-		</script>
-
-	<script type="text/javascript">
+		<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    	</script>
+<script type="text/javascript">
 
 function rollover(my_image)
 {
@@ -30,7 +29,7 @@ my_image.src = 'skya.gif';
 }
 function mouseaway(my_image)
 {
-my_image.src = "Me.png";
+my_image.src = "me.png";
 }
 </script>
 
@@ -38,7 +37,7 @@ my_image.src = "Me.png";
   </head>
 <h1> <font color= "white"><u>IT030 Classwork</u> </h2>
 <h2> <font color= "white">BY: Dorant Zeneli </h2>
-<h2> <font color= "white"> 4/5/18 </h2>
+<h2> <font color= "white"> 4/9/18 </h2>
 </center></font>
 
 </head>
@@ -46,13 +45,14 @@ my_image.src = "Me.png";
 
 <div id="border">
 <center>
-<nav id="mobile_menu" class="cl-effect-16">
+<nav id="mobile_menu" class="cl-effect-16"></nav>
 <nav id="nav_menu" class="cl-effect-16">
-			<a href="http://techteach.us/WCP2016/ZDorant/" data-hover="Homepage">Homepage</a>
+			<a href="http://techteach.us/WCP2016/ZDorant/PROJECTS/PROJECT5/index2.html" data-hover="Homepage">Homepage</a>
 			<a href="http://techteach.us/WCP2016/ZDorant/labindex/labs.html" data-hover="Labs">Labs</a>
 			<a href="http://techteach.us/WCP2016/ZDorant/projectindex/projects.html" data-hover="Projects">Projects</a>
 			<a href="https://plus.google.com/u/0/116215094398076918896" data-hover="Blog">Blog</a>
 			<a href="#" data-hover="Profile">Profile</a>
+		</nav>
 
 </center>
 
@@ -60,7 +60,7 @@ my_image.src = "Me.png";
 <main>
 	<center>
 	<address>
-		<a href="Emailto:Zeneldorant@gmail.com"><font color= "yellow">
+		<a href="mailto:Zeneldorant@gmail.com"><font color= "yellow">
 			Zenelidorant@gmail.com </font> </a>
 		</address>
 	</center>
@@ -69,7 +69,7 @@ my_image.src = "Me.png";
 <img src= "Me.png"
 onmouseover="rollover(this)"
 onmouseout="mouseaway(this)"
-border="1" alt="Wow! *wink*" width="250" height="250"/>
+border="2" alt="Wow! *wink*" width="250" height="250"/>
 </div>
 
 <form action="http://techteach.us/WCP2016/ZDorant/">
@@ -78,7 +78,7 @@ border="1" alt="Wow! *wink*" width="250" height="250"/>
 </center>
 
 <center>
-<table>
+<table id="border2">
   <tr>
     <td>as an <font color= "yellow">Web programmer</font>
 		I like to challenge myself when im coding. There are various of
@@ -99,7 +99,7 @@ border="1" alt="Wow! *wink*" width="250" height="250"/>
 </p>
 
 
-<table>
+<table id="border2">
   <tr>
     <td> Coding html is one of my favorite subjects when it comes
 			to learning especially CSS, Javascript, and jQuery properties.
