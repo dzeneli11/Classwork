@@ -41,11 +41,7 @@ td,p,h3,li {color: #ffffff;
 }
 
 table {
-
-	border: 2px solid yellow;
-	border-radius: 5px;
-	padding: 10px;
-	border-radius: 2em / 5em;
+margin-top: 50px;
 }
 
 li {
@@ -57,11 +53,16 @@ ul.b {
 }
 
 #border {
-	border: 3px solid yellow;
+border: 3px solid yellow;
 border-radius: 5px;
-padding: 40px;
+padding: 80px;
 border-radius: 3em / 5em;
 
+}
+#border2 {
+	border: 2px solid yellow;
+	border-radius: 5px;
+  border-radius: 2em / 5em;
 }
 main{
 	float: left;
@@ -81,20 +82,38 @@ li {
 	}
 
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {//CSS
 
 /*tablets*/
 
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {//CSS
+	#nav_menu{
+		display: none;
+	}
+	main {
+		font-size:90%;
+		width: 100%;
+	}
+	#sidebarA{
+		float: none;
+		width: 200%;
+	}
+	body{
+		width:100%;
+		border:none;
+	}
+
+
+
 
 	/*Mobile*/
-  
 
 
-@media (min-width: 1281px) {
+
+@media (min-width: 1281px) {//CSS
 
   /*Desktop*/
 

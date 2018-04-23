@@ -16,6 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript" src="sound-mouseover.js"></script>
 		<script type="text/javascript">
     	$(document).ready(function(){
 			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
@@ -25,7 +26,7 @@
 
 function rollover(my_image)
 {
-my_image.src = 'skya.gif';
+my_image.src = 'JOHN_CENA.gif';
 }
 function mouseaway(my_image)
 {
@@ -66,11 +67,18 @@ my_image.src = "me.png";
 	</center>
 
 <div id="Rollover" align="center">
+<a href="about.htm" onmouseover="playclip();">
 <img src= "Me.png"
 onmouseover="rollover(this)"
 onmouseout="mouseaway(this)"
 border="2" alt="Wow! *wink*" width="250" height="250"/>
 </div>
+ 
+<audio>
+<source src="Sound_Effect.mp3">
+<source src="Sound_Effect.ogg">
+</audio>
+<div id="sounddiv"><bgsound id="sound"></div>
 
 <form action="http://techteach.us/WCP2016/ZDorant/">
     <input type="submit" value="Click Here!" />
@@ -116,5 +124,6 @@ border="2" alt="Wow! *wink*" width="250" height="250"/>
 <footer>
 <p id="copyright"> © Dorant Zeneli 2018 </p>
 </footer>
+</div>
 </body>
 </html>
